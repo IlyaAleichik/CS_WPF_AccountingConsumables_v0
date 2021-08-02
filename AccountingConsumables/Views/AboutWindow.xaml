@@ -1,0 +1,18 @@
+﻿<Window x:Class="AccountingConsumables.Views.AboutWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="О программе" Height="170" Width="300" FontFamily="Segoe UI Light">
+    <Grid>
+        <WrapPanel>
+            <StackPanel Margin="10">
+                <Label Content="Версия: 0.0.1"/>
+                <Label Content="Автор: Алейчик Илья Дмитриевич"/>
+                <Label Content="© AICGT, Все права защищены, 2021."/>
+            </StackPanel>
+        </WrapPanel>
+    </Grid>
+</Window>
